@@ -1,9 +1,9 @@
 $baseFontFamily: Helvetica, sans-serif;
 /**@import url(http://fonts.googleapis.com/css?family=Oxygen);**/
 
-$btnPrimaryBackground: green;
-$navbarBackgroundHighlight: white;
-$navbarBackground: white;
+$btnPrimaryBackground: #3996f6;
+$navbarBackgroundHighlight: #3996f6;
+$navbarBackground: #3996f6;
 
 @import 'bootstrap';
 
@@ -13,9 +13,19 @@ body {
 
 @import 'bootstrap-responsive';
 
-.navbar-inner {
+/**.navbar-inner {
   @include box-shadow(none !important);
   border: 0;
+}
+**/
+
+.navbar .brand {
+  color: white;
+  text-shadow: 0 1px 0 black;
+}
+
+.navbar .nav li a {
+  color: white;
 }
 
 footer {
